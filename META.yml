@@ -12,7 +12,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.046, CPAN::Meta::Converter version 2.150001'
+generated_by: 'Dist::Zilla version 5.047, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,7 +21,7 @@ name: PerlIO-eol
 provides:
   PerlIO::eol:
     file: lib/PerlIO/eol.pm
-    version: '0.15'
+    version: '0.16'
 requires:
   Exporter: '0'
   XSLoader: '0'
@@ -31,4 +31,4 @@ requires:
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PerlIO-eol
   repository: https://github.com/shlomif/perl-PerlIO-eol.git
-version: '0.15'
+version: '0.16'

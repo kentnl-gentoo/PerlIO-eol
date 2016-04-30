@@ -154,7 +154,7 @@ PerlIOEOL_open(pTHX_ PerlIO_funcs *self, PerlIO_list_t *layers,
 
     if (f) {
         PerlIOEOL *s = PerlIOSelf(f, PerlIOEOL);
-        s->name = (STDCHAR *)savepv( SvPV_nolen(arg) );
+        s->name = savepv( SvPV_nolen(arg) );
     }
 
     return f;
