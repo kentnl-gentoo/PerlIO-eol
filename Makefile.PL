@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use inc::Module::Install;
+use lib q[.]; use inc::Module::Install;
 
 name         ('PerlIO-eol');
 author       ('Audrey Tang <audreyt@audreyt.org>');
